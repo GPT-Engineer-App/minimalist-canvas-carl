@@ -74,3 +74,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .dot-matrix-text {
+    font-family: monospace;
+    letter-spacing: 0.2em;
+  }
+  
+  .dot-matrix-text span {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    background-color: currentColor;
+    margin: 0.1em;
+  }
+}
